@@ -94,4 +94,6 @@ void string_list_free(GList *l);
 
 gchar *utf8_escape_string(const gchar *str, gssize len);
 
+gboolean num_parse_int(const gchar *s, long *d);
+
 #endif
