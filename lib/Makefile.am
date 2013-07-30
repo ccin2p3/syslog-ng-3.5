@@ -62,6 +62,7 @@ pkginclude_HEADERS			+= \
 	lib/ml-batched-timer.h		\
 	lib/msg-format.h		\
 	lib/nvtable.h			\
+	lib/parse-number.h		\
 	lib/persist-state.h		\
 	lib/plugin.h			\
 	lib/plugin-types.h		\
@@ -135,6 +136,7 @@ lib_libsyslog_ng_la_SOURCES		= \
 	lib/ml-batched-timer.c		\
 	lib/msg-format.c		\
 	lib/nvtable.c			\
+	lib/parse-number.c		\
 	lib/persist-state.c		\
 	lib/plugin.c			\
 	lib/pragma-parser.c		\

@@ -26,7 +26,7 @@
 #include "filter/filter-expr.h"
 #include "filter/filter-expr-parser.h"
 #include "cfg.h"
-#include "misc.h"
+#include "parse-number.h"
 #include "str-format.h"
 #include "plugin-types.h"
 
